@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:100,200,300,400,500,600,700|Oswald:100,200,300,400,500,600,700');
+
+/*-------------------------------------------------Logo */
+
+.logo h1 {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin: 0;
+    padding: 10%;
+    border-right: 5px solid black;
+}
+
+/*-------------------------------------------------Menu */
+
+li h2 {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    margin: 0;
+    padding: 10%;
+    border-right: 5px solid black;
+}
+
+.menuitem a {
+    text-decoration: none;
+    color: black;
+}
+
+.menuitem i {
+    
+}
+
+.menuitem h2:hover {
+    color: black;
+}
