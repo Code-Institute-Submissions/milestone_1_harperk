@@ -8,10 +8,15 @@
     font-size: 50px;
     margin: 0;
     padding: 10%;
-    border-right: 5px solid black;
 }
 
 /*-------------------------------------------------Menu */
+
+#navbarSupportedContent {
+    text-align: right;
+    position: relative;
+    float: right;
+}
 
 li h2 {
     font-family: "Amatic SC", sans-serif;
@@ -19,7 +24,6 @@ li h2 {
     font-size: 40px;
     margin: 0;
     padding: 10%;
-    border-right: 5px solid black;
 }
 
 .menuitem a {
