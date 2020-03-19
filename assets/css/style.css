@@ -3,14 +3,22 @@
 /*-------------------------------------------------Logo */
 
 .logo h1 {
+    color: black;
     font-family: "Amatic SC", sans-serif;
     font-weight: 700;
     font-size: 50px;
     margin: 0;
-    padding: 10%;
+    padding: 0;
 }
 
 /*-------------------------------------------------Menu */
+
+.navbar {
+    position: relative;
+    background-color: white;
+    margin: 0;
+    border-bottom: black solid 2px;
+}
 
 .navbar-nav {
     position: absolute;
@@ -22,7 +30,17 @@ li h2 {
     font-weight: 500;
     font-size: 40px;
     margin: 0;
-    padding: 10%;
+    padding: 20px;
+    color: black;
+}
+
+.navbar-toggler {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    background-color: black;
 }
 
 .menuitem a {
