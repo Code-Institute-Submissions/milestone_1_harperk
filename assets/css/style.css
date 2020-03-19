@@ -12,10 +12,9 @@
 
 /*-------------------------------------------------Menu */
 
-#navbarSupportedContent {
-    text-align: right;
-    position: relative;
-    float: right;
+.navbar-nav {
+    position: absolute;
+    right: 50px;
 }
 
 li h2 {
@@ -35,6 +34,6 @@ li h2 {
     
 }
 
-.menuitem h2:hover {
+.nav-item h2:hover {
     color: black;
 }
