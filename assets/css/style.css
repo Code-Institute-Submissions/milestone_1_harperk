@@ -8,7 +8,14 @@
     font-weight: 700;
     font-size: 50px;
     margin: 0;
-    padding: 0;
+    padding: 1vw;
+}
+
+.logo h1:hover {
+    background-color: orange;
+    color: white;
+    border-radius: 20%;
+    padding: 1vw;
 }
 
 /*-------------------------------------------------Menu */
