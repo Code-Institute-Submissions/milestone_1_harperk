@@ -16,13 +16,22 @@
 .navbar {
     position: relative;
     background-color: white;
-    margin: 0;
     border-bottom: black solid 2px;
 }
 
 .navbar-nav {
     position: absolute;
     right: 50px;
+}
+
+button {
+    position: absolute;
+    right: 5vw;
+}
+
+.logo {
+    position: relative;
+    left: 1vw;
 }
 
 li h2 {
@@ -54,4 +63,24 @@ li h2 {
 
 .nav-item h2:hover {
     color: black;
+}
+
+/*-------------------------------------------------Footer */
+
+.footer {
+    position: relative;
+}
+
+.list-inline {
+    position: absolute;
+    right: 5vw;
+}
+
+/*-------------------------------------------------Social Media */
+
+.list-inline-item i {
+    color: black;
+    font-size: 30px;]
+    margin: 0;
+    padding: 20px;
 }
