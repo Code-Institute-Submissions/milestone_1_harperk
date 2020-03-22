@@ -23,7 +23,7 @@
     padding: 1vw;
 }
 
-/*-------------------------------------------------Expanded Menu */
+/*-------------------------------------------------Expanded Navbar */
 
 .navbar {
     position: relative;
@@ -68,6 +68,10 @@ button {
     background-color: black;
 }
 
+.navbar-toggler:hover {
+    background-color: orange;
+}
+
 /*-------------------------------------------------Footer */
 
 .footer {
@@ -86,4 +90,8 @@ button {
     font-size: 30px;]
     margin: 0;
     padding: 20px;
+}
+
+.list-inline-item i:hover {
+    color: orange;
 }
