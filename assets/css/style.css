@@ -2,6 +2,11 @@
 
 /*-------------------------------------------------Logo */
 
+.logo {
+    position: relative;
+    left: 1vw;
+}
+
 .logo h1 {
     color: black;
     font-family: "Amatic SC", sans-serif;
@@ -18,7 +23,7 @@
     padding: 1vw;
 }
 
-/*-------------------------------------------------Menu */
+/*-------------------------------------------------Expanded Menu */
 
 .navbar {
     position: relative;
@@ -29,16 +34,7 @@
 .navbar-nav {
     position: absolute;
     right: 50px;
-}
-
-button {
-    position: absolute;
-    right: 5vw;
-}
-
-.logo {
-    position: relative;
-    left: 1vw;
+    padding: 1vw;
 }
 
 li h2 {
@@ -46,30 +42,30 @@ li h2 {
     font-weight: 500;
     font-size: 40px;
     margin: 0;
-    padding: 20px;
+    padding: 1vw;
     color: black;
+}
+
+li h2:hover {
+    background-color: orange;
+    color: white;
+    border-radius: 20%;
+    padding: 1vw;
+}
+
+/*-------------------------------------------------Menu Button */
+
+button {
+    position: absolute;
+    right: 5vw;
 }
 
 .navbar-toggler {
     font-family: "Amatic SC", sans-serif;
     font-size: 30px;
     text-align: center;
-    text-decoration: underline;
     color: white;
     background-color: black;
-}
-
-.menuitem a {
-    text-decoration: none;
-    color: black;
-}
-
-.menuitem i {
-    
-}
-
-.nav-item h2:hover {
-    color: black;
 }
 
 /*-------------------------------------------------Footer */
