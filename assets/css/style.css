@@ -95,3 +95,7 @@ button {
 .list-inline-item i:hover {
     color: orange;
 }
+
+/*-------------------------------------------------Media Enquiries */
+
+@media
