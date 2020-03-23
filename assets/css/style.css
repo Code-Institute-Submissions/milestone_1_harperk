@@ -37,7 +37,7 @@
     padding: 1vw;
 }
 
-li h2 {
+.nav-item h2 {
     font-family: "Amatic SC", sans-serif;
     font-weight: 500;
     font-size: 40px;
@@ -46,7 +46,7 @@ li h2 {
     color: black;
 }
 
-li h2:hover {
+.nav-item h2:hover {
     background-color: orange;
     color: white;
     border-radius: 20%;
@@ -55,12 +55,9 @@ li h2:hover {
 
 /*-------------------------------------------------Menu Button */
 
-button {
+.navbar-toggler {
     position: absolute;
     right: 5vw;
-}
-
-.navbar-toggler {
     font-family: "Amatic SC", sans-serif;
     font-size: 30px;
     text-align: center;
@@ -93,6 +90,24 @@ button {
 }
 
 .list-inline-item i:hover {
+    color: orange;
+}
+
+/*-------------------------------------------------Words */
+
+.words {
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.home-words {
+    text-align: justify;
+}
+
+.words a {
     color: orange;
 }
 
