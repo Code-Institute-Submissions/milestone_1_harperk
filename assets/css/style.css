@@ -19,7 +19,7 @@
 .logo h1:hover {
     background-color: orange;
     color: white;
-    border-radius: 20%;
+    border-radius: 10%;
     padding: 1vw;
 }
 
@@ -29,12 +29,14 @@
     position: relative;
     background-color: white;
     border-bottom: black solid 2px;
+    z-index: 1;
 }
 
 .navbar-nav {
     position: absolute;
     right: 50px;
     padding: 1vw;
+    text-align: right;
 }
 
 .nav-item h2 {
@@ -49,7 +51,7 @@
 .nav-item h2:hover {
     background-color: orange;
     color: white;
-    border-radius: 20%;
+    border-radius: 10%;
     padding: 1vw;
 }
 
@@ -67,6 +69,24 @@
 
 .navbar-toggler:hover {
     background-color: orange;
+}
+
+#navbarNavDropdown:active {
+    box-shadow: none;
+    outline: none;
+    border: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent
+}
+
+/*--https://stackoverflow.com/questions/13119906/turning-off-twitter-bootstrap-navbar-transition-animation--*/
+
+.navbar-collapse {
+    -webkit-transition: height 0.01s;
+    -moz-transition: height 0.01s;
+    -ms-transition: height 0.01s;
+    -o-transition: height 0.01s;
+    transition: height 0.01s;
 }
 
 .navbar-nav-color {
