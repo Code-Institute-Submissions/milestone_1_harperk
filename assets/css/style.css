@@ -2,6 +2,10 @@
 
 /*-------------------------------------------------Logo */
 
+.header {
+    height: 20vh;
+}
+
 .logo {
     position: relative;
     left: 1vw;
@@ -97,11 +101,11 @@
 
 .footer {
     position: relative;
+    height: 10vh;
 }
 
 .list-inline {
     position: absolute;
-    right: 5vw;
 }
 
 /*-------------------------------------------------Social Media */
@@ -119,11 +123,15 @@
 
 /*-------------------------------------------------Words */
 
+.word-box {
+    height: 10vh;
+}
+
 .words {
     font-family: "Oswald", sans-serif;
     font-weight: 300;
     padding: 30px;
-    font-size: 25px;
+    font-size: 4vw;
     text-align: center;
 }
 
@@ -137,7 +145,26 @@
 
 /*-------------------------------------------------Carousel */
 
+.carousel-inner {
+    height: 70vh;
+    width: auto;
+}
 
+.carousel-item {
+    height: 100%;
+}
+
+.carousel-item img {
+    height: 100%;
+    width: auto;
+}
+
+.carousel-caption {
+    color: black;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    text-align: right;
+}
 
 /*-------------------------------------------------Media Enquiries */
 
