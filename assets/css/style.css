@@ -2,8 +2,16 @@
 
 /*-------------------------------------------------Logo */
 
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
 .header {
+    position: absolute;
     height: 20vh;
+    margin: 0;
 }
 
 .logo {
@@ -97,46 +105,27 @@
     background-color: white;
 }
 
-/*-------------------------------------------------Footer */
-
-.footer {
-    position: relative;
-    height: 10vh;
-}
-
-.list-inline {
-    position: absolute;
-}
-
-/*-------------------------------------------------Social Media */
-
-.list-inline-item i {
-    color: black;
-    font-size: 30px;]
-    margin: 0;
-    padding: 20px;
-}
-
-.list-inline-item i:hover {
-    color: orange;
-}
-
 /*-------------------------------------------------Words */
-
-.word-box {
-    height: 10vh;
-}
 
 .words {
     font-family: "Oswald", sans-serif;
     font-weight: 300;
     padding: 30px;
-    font-size: 4vw;
     text-align: center;
 }
 
-.home-words {
+.word-box {
+    background-image: url("/assets/illustrations/foxandmellon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 20%;
+    height: 70vh;
+    width: 100%;
+}
+
+.home-words h3 {
     text-align: justify;
+    opacity: 100%;
 }
 
 .words a {
@@ -157,13 +146,42 @@
 .carousel-item img {
     height: 100%;
     width: auto;
+    margin: auto;
 }
 
 .carousel-caption {
     color: black;
     font-family: "Oswald", sans-serif;
     font-weight: 300;
-    text-align: right;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.3);
+    bottom: 0;
+}
+
+/*-------------------------------------------------Footer */
+
+.footer {
+    position: absolute;
+    height: 8vh;
+    bottom: 0;
+}
+
+.list-inline {
+    position: relative;
+}
+
+/*-------------------------------------------------Social Media */
+
+.list-inline-item i {
+    color: black;
+    font-size: 30px;]
+    margin: 0;
+    padding: 20px;
+}
+
+.list-inline-item i:hover {
+    color: orange;
 }
 
 /*-------------------------------------------------Media Enquiries */
