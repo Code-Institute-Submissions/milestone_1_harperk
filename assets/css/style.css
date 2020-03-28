@@ -153,6 +153,10 @@
     bottom: 0;
 }
 
+.carousel-caption p {
+    font-size: 13px;
+}
+
 /*-------------------------------------------------Footer */
 
 .footer {
