@@ -2,12 +2,6 @@
 
 /*-------------------------------------------------Logo */
 
-body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-}
-
 .header {
     position: absolute;
     height: 20vh;
@@ -40,7 +34,6 @@ body {
 .navbar {
     position: relative;
     background-color: white;
-    border-bottom: black solid 2px;
     z-index: 1;
 }
 
@@ -83,14 +76,6 @@ body {
     background-color: orange;
 }
 
-.navbar-toggler:active {
-    box-shadow: none;
-    outline: none;
-    border: none;
-    outline: none;
-    -webkit-tap-highlight-color: transparent
-}
-
 /*--https://stackoverflow.com/questions/13119906/turning-off-twitter-bootstrap-navbar-transition-animation--*/
 
 .navbar-collapse {
@@ -116,11 +101,12 @@ body {
 
 .word-box {
     background-image: url("/assets/illustrations/foxandmellon.jpg");
-    background-repeat: no-repeat;
+    background-repeat: round;
     background-size: cover;
     opacity: 20%;
     height: 70vh;
     width: 100%;
+    z-index: -1;
 }
 
 .home-words h3 {
@@ -134,19 +120,27 @@ body {
 
 /*-------------------------------------------------Carousel */
 
+.main-box {
+    border-top: black solid 2px;
+    border-bottom: black solid 2px;
+}
+
 .carousel-inner {
     height: 70vh;
     width: auto;
+    
 }
 
 .carousel-item {
     height: 100%;
+    
 }
 
 .carousel-item img {
     height: 100%;
     width: auto;
     margin: auto;
+    
 }
 
 .carousel-caption {
@@ -155,16 +149,16 @@ body {
     font-weight: 300;
     padding: 0;
     margin: 0;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.4);
     bottom: 0;
 }
 
 /*-------------------------------------------------Footer */
 
 .footer {
-    position: absolute;
     height: 8vh;
     bottom: 0;
+
 }
 
 .list-inline {
