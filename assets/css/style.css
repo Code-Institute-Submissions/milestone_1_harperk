@@ -99,21 +99,6 @@
     text-align: center;
 }
 
-.word-box {
-    background-image: url("/assets/illustrations/foxandmellon.jpg");
-    background-repeat: round;
-    background-size: cover;
-    opacity: 20%;
-    height: 70vh;
-    width: 100%;
-    z-index: -1;
-}
-
-.home-words h3 {
-    text-align: justify;
-    opacity: 100%;
-}
-
 .words a {
     color: orange;
 }
@@ -128,19 +113,16 @@
 .carousel-inner {
     height: 70vh;
     width: auto;
-    
 }
 
 .carousel-item {
     height: 100%;
-    
 }
 
 .carousel-item img {
     height: 100%;
     width: auto;
     margin: auto;
-    
 }
 
 .carousel-caption {
@@ -156,6 +138,8 @@
 .carousel-caption p {
     font-size: 13px;
 }
+
+/*--https://stackoverflow.com/questions/49389768/change-arrow-colors-in-ng-bootstrap-carousel--*/
 
 .carousel-control-next, 
 .carousel-control-prev,
@@ -189,6 +173,17 @@
 
 .list-inline-item i:hover {
     color: orange;
+}
+
+/*-------------------------------------------------Contact Form */
+
+.center-form {
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    padding: 30px;
+    margin: auto;
+    max-width: 70%;
+    text-align: center;
 }
 
 /*-------------------------------------------------Media Enquiries */
