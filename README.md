@@ -1,7 +1,7 @@
 # Harpoon Illustrations
 
 <div style="text-align:center;">
-<img src="https://github.com/H4RP3RK/milestone_1_harperk/blob/41d094d9019647d939ada6ace475ded9ad31cce6/wireframes/milestone1_screens.png">
+<img src="https://github.com/H4RP3RK/milestone_1_harperk/blob/e95a656c254f480046354ead613ca4a5d4610287/wireframes/milestone1_screens.png">
 </div>
 
 ## Aim
