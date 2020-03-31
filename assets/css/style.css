@@ -122,8 +122,8 @@ header {
 }
 
 .carousel-item img {
-    height: 100%;
-    width: auto;
+    height: auto;
+    width: 100%;
     margin: auto;
 }
 
@@ -148,10 +148,10 @@ header {
 /*-------------------------------------------------Footer */
 
 footer {
-    bottom: 0;
     display: block;
     background: #CBB09A;
     border-top: #FFCF4C solid 3px;
+    color:#3B6654;
 }
 
 .list-inline {
@@ -161,23 +161,28 @@ footer {
 .contact h5 {
     font-family: "Amatic SC", sans-serif;
     font-weight: 500;
-    margin: 0;
+    font-size: 20px;
+    margin: auto;
     padding: 2vw;
     color: #3B6654;
 }
 
 .contact h5:hover {
-    background-color: #FFCF4C;
-    color: #3B6654;
+    color: #FFCF4C;
     text-decoration: none;
 }
 
 /*-------------------------------------------------Social Media */
 
+.list-inline {
+    position: absolute;
+    right: 2vw;
+}
+
 .list-inline-item i {
     color: #3B6654;
-    font-size: 30px;]
-    margin: 0;
+    font-size: 30px;
+    margin: auto;
     padding: 2vw;
 }
 
@@ -208,6 +213,10 @@ footer {
     display: inline-block;
 }
 
+.form textarea {
+    height: 20vh;
+}
+
 .form-button {
     font-family: "Amatic SC", sans-serif;
     font-size: 30px;
@@ -225,6 +234,25 @@ footer {
 
 /*-------------------------------------------------Media Enquiries */
 
-@media(min-width: 992px) {
+@media(min-width: 1025px) {
+    .carousel-item img {
+        height: 100%;
+        width: auto;
+    }
+}
+
+@media(max-width: 335px) {
+    .list-inline-item i {
+        font-size: 20px;
+    }
+
+    .logo h1 {
+        font-size: 45px;
+    }
+
+    .form h3 {
+        font-size: 20px;
+        padding: 15px 5px;
+    }
 
 }
