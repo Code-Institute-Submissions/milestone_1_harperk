@@ -3,12 +3,12 @@
 /*-------------------------------------------------Logo */
 
 body {
-    background: #D2FFFA;
+    background: #D1DEDC;
 }
 
 header {
-    background: #c2fff9;
-    border-bottom: black solid 3px;
+    background: #CBB09A;
+    border-bottom: #FFCF4C solid 3px;
 }
 
 .logo {
@@ -17,7 +17,7 @@ header {
 }
 
 .logo h1 {
-    color: black;
+    color: #3B6654;
     font-family: "Amatic SC", sans-serif;
     font-weight: 700;
     font-size: 50px;
@@ -26,8 +26,8 @@ header {
 }
 
 .logo h1:hover {
-    background-color: #319586;
-    color: white;
+    background-color: #FFCF4C;
+    color: #3B6654;
     border-radius: 10%;
     padding: 1vw;
 }
@@ -44,22 +44,22 @@ header {
     right: 50px;
     padding: 1vw;
     text-align: right;
-    background-color: #c2fff9;
+    background-color: #CBB09A;
     z-index: 2;
 }
 
-.nav-item h2 {
+.nav-link h2 {
     font-family: "Amatic SC", sans-serif;
     font-weight: 500;
     font-size: 40px;
     margin: 0;
     padding: 1vw;
-    color: black;
+    color: #3B6654;
 }
 
 .nav-item h2:hover {
-    background-color: #319586;
-    color: white;
+    background-color: #FFCF4C;
+    color: #3B6654;
     border-radius: 10%;
     padding: 1vw;
 }
@@ -72,12 +72,13 @@ header {
     font-family: "Amatic SC", sans-serif;
     font-size: 30px;
     text-align: center;
-    color: white;
-    background-color: black;
+    color: #FFCF4C;
+    background-color: #3B6654;
 }
 
 .navbar-toggler:hover {
-    background-color: #319586;
+    color: #3B6654;
+    background-color: #FFCF4C;
 }
 
 /*--https://stackoverflow.com/questions/13119906/turning-off-twitter-bootstrap-navbar-transition-animation--*/
@@ -101,18 +102,15 @@ header {
     font-weight: 300;
     padding: 30px;
     text-align: center;
+    color: #3B6654;
 }
 
 .words a {
-    color: #319586;
+    color: #3B6654;
+    font-weight: 500;
 }
 
 /*-------------------------------------------------Carousel */
-
-.main-box {
-    
-    
-}
 
 .carousel-inner {
     height: 70vh;
@@ -130,12 +128,12 @@ header {
 }
 
 .carousel-caption {
-    color: black;
+    color: #3B6654;
     font-family: "Oswald", sans-serif;
     font-weight: 300;
     padding: 0;
     margin: 0;
-    background-color: rgba(210, 255, 250, 0.5));
+    background-color: rgba(209, 222, 220, 0.7);
     bottom: 0;
 }
 
@@ -145,47 +143,60 @@ header {
 
 /*--https://stackoverflow.com/questions/49389768/change-arrow-colors-in-ng-bootstrap-carousel--*/
 
-.carousel-control-next, 
-.carousel-control-prev,
-.carousel-control-next:hover, 
-.carousel-control-prev:hover, 
-.carousel-control-next:active, 
-.carousel-control-prev:active {
-    filter: invert(1);
-}
+
 
 /*-------------------------------------------------Footer */
 
 footer {
     bottom: 0;
     display: block;
-    background: #c2fff9;
-    border-top: black solid 3px;
+    background: #CBB09A;
+    border-top: #FFCF4C solid 3px;
 }
 
 .list-inline {
     display: inline-block;
 }
 
+.contact h5 {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 2vw;
+    color: #3B6654;
+}
+
+.contact h5:hover {
+    background-color: #FFCF4C;
+    color: #3B6654;
+    text-decoration: none;
+}
+
 /*-------------------------------------------------Social Media */
 
 .list-inline-item i {
-    color: black;
+    color: #3B6654;
     font-size: 30px;]
     margin: 0;
-    padding: 20px;
+    padding: 2vw;
 }
 
 .list-inline-item i:hover {
-    color: #319586;
+    color: #FFCF4C;
 }
 
 /*-------------------------------------------------Contact Form */
 
 .form {
     display: block;
-    height: 70vh;
     text-align: center;
+    height: 70vh;
+}
+
+.form h3 {
+    font-family: "Oswald", sans-serif;
+    padding: 25px 5px;
+    color: #3B6654;
 }
 
 .form-control {
@@ -201,16 +212,19 @@ footer {
     font-family: "Amatic SC", sans-serif;
     font-size: 30px;
     text-align: center;
-    color: white;
-    background-color: black;
+    color: #FFCF4C;
+    background-color: #3B6654;
     border-radius: 10%;
 }
 
 .form-button:hover {
-    background-color: #319586;
+    color: #3B6654;
+    background-color: #FFCF4C;
 }
 
 
 /*-------------------------------------------------Media Enquiries */
 
-@media
+@media(min-width: 992px) {
+
+}
