@@ -110,6 +110,8 @@ header {
     font-weight: 500;
 }
 
+/*--------------------Button */
+
 .home-box a {
     font-family: "Amatic SC", sans-serif;
     font-size: 30px;
@@ -162,7 +164,11 @@ header {
 /*-------------------------------------------------Footer */
 
 footer {
-    display: block;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10vh;
     background: #CBB09A;
     border-top: #FFCF4C solid 3px;
     color:#3B6654;
@@ -174,19 +180,19 @@ footer {
 
 .contact a {
     font-family: "Amatic SC", sans-serif;
-    font-weight: 500;
     font-size: 20px;
-    margin: auto;
-    padding: 2vw;
-    color: #3B6654;
-}
-
-.contact h5:hover {
+    text-align: center;
     color: #FFCF4C;
-    text-decoration: none;
+    background-color: #3B6654;
+    margin: auto;
 }
 
-/*-------------------------------------------------Social Media */
+.contact a:hover {
+    color: #3B6654;
+    background-color: #FFCF4C;
+}
+
+/*--------------------Social Media */
 
 .list-inline {
     position: absolute;
