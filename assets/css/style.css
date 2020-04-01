@@ -7,7 +7,7 @@ body {
 }
 
 header {   
-    height: 20%;
+    height: 20vh;
     background: #CBB09A;
     border-bottom: #FFCF4C solid 3px;
 }
@@ -93,22 +93,44 @@ header {
 
 /*-------------------------------------------------Home Page */
 
-.home-box {
-    height: 60vh;
+/*--https://scotch.io/tutorials/how-to-change-a-css-background-images-opacity*/
+
+.home-box:before {
+    height: 70vh;
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    background-image: url('../illustrations/jurassiccat.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    z-index: -1;
 }
 
 .words {
     font-family: "Oswald", sans-serif;
     font-weight: 300;
-    padding: 30px;
+    padding: 5px;
     text-align: center;
     color: #3B6654;
+    background-color: rgba(209, 222, 220, 0.9);
+    margin: 10px;
+    border-radius: 5px;
 }
 
 .words a {
     color: #3B6654;
     font-weight: 500;
 }
+
 
 /*--------------------Button */
 
@@ -141,6 +163,7 @@ header {
     height: auto;
     width: 100%;
     margin: auto;
+    align-items: center;
 }
 
 .carousel-caption {
@@ -157,10 +180,6 @@ header {
     font-size: 13px;
 }
 
-/*--https://stackoverflow.com/questions/49389768/change-arrow-colors-in-ng-bootstrap-carousel--*/
-
-
-
 /*-------------------------------------------------Footer */
 
 footer {
@@ -168,7 +187,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 10%;
+    height: 15vh;
     background: #CBB09A;
     border-top: #FFCF4C solid 3px;
     color:#3B6654;
@@ -185,8 +204,8 @@ footer {
     text-align: center;
     color: #FFCF4C;
     background-color: #3B6654;
-    margin: auto;
-    padding: 1px 7px 2px
+    margin-top: 2vh;
+    padding: 1px 7px 2px;
 }
 
 .contact a:hover {
@@ -199,14 +218,14 @@ footer {
 
 .list-inline {
     position: absolute;
-    right: 2vw;
+    right: 5vw;
 }
 
 .list-inline-item i {
     color: #3B6654;
     font-size: 30px;
-    margin: auto 0;
-    padding: 2vw;
+    margin-top: 2vh;
+    padding: 0 10px;
 }
 
 .list-inline-item i:hover {
@@ -218,7 +237,7 @@ footer {
 .form {
     display: block;
     text-align: center;
-    height: 70vh;
+    height: 65vh;
 }
 
 .form h3 {
@@ -264,18 +283,23 @@ footer {
     }
 }
 
-@media(max-width: 335px) {
+@media(max-width: 375px) {
     .list-inline-item i {
         font-size: 20px;
     }
 
     .logo h1 {
-        font-size: 45px;
+        font-size: 35px;
     }
 
+    .form-button,
     .form h3 {
-        font-size: 20px;
-        padding: 15px 5px;
+        font-size: 18px;
+    }
+
+    .about a,
+    .words {
+        font-size: 18px;
     }
 
 }
