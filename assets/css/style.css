@@ -36,7 +36,7 @@ header {
 
 .navbar {
     position: relative;
-    z-index: 1;
+    z-index: 12;
 }
 
 .navbar-nav {
@@ -46,6 +46,7 @@ header {
     text-align: right;
     background-color: #CBB09A;
     z-index: 2;
+    border-radius: 5px;
 }
 
 .nav-link h2 {
@@ -62,6 +63,12 @@ header {
     color: #3B6654;
     border-radius: 10%;
     padding: 1px 7px 2px;
+}
+
+.nav-link.active {
+    background-color: #FFCF4C;
+    color: #3B6654;
+    border-radius: 10%;
 }
 
 /*-------------------------------------------------Menu Button */
@@ -81,6 +88,10 @@ header {
     background-color: #FFCF4C;
 }
 
+#navbarNavDropdown:after {
+    border: #FFCF4C solid 3px;
+}
+
 /*--https://stackoverflow.com/questions/13119906/turning-off-twitter-bootstrap-navbar-transition-animation--*/
 
 .navbar-collapse {
@@ -96,7 +107,7 @@ header {
 /*--https://scotch.io/tutorials/how-to-change-a-css-background-images-opacity*/
 
 .home-box {
-    height: 70vh;
+    height: 65vh;
     display: block;
 }
 
@@ -104,15 +115,14 @@ header {
     height: auto;
     width: 100%;
     margin: auto;
-    opacity: 0.7;
-    position: absolute;
+    margin-bottom: 10px;
     border: #FFCF4C solid 3px;
+    border-radius: 10px;
 }
 
 .words {
     font-family: "Oswald", sans-serif;
     font-weight: 300;
-    font-size: 18px;
     padding: 5px;
     text-align: center;
     color: #3B6654;
@@ -276,11 +286,20 @@ footer {
         height: 100%;
         width: auto;
     }
+    
+    footer {
+        height: 10vh;
+    }
+
+    .home-box {
+        height: 70vh;
+    }
 }
 
 @media(max-width: 375px) {
     .list-inline-item i {
-        font-size: 20px;
+        font-size: 21px;
+        padding-top: 20px;
     }
 
     .logo h1 {
@@ -296,5 +315,4 @@ footer {
     .words {
         font-size: 18px;
     }
-
 }

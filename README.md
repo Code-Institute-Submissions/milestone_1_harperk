@@ -22,10 +22,6 @@ The site must meet the following criteria:
 
 ---
 
-## User testimonials
-
----
-
 ## Wireframes
 
 [Balsamiq](https://balsamiq.com/) was used for the initial design phase of the website.
@@ -100,6 +96,7 @@ Users will be able to purchase the illustrator's merchandise on the site.
 * [Bootstrap](https://getbootstrap.com/)
 * [FontAwesome](https://fontawesome.com/)
 * [GoogleFonts](https://fonts.google.com/)
+* [Hover.css] (https://ianlunn.github.io/Hover/)
 * [Gitpod](https://gitpod.io/workspaces/)
 * [Github](https://github.com/)
 
@@ -150,4 +147,4 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 
 ### Illustrations and Collages
 
-All images and collages were created by 
+All images and collages were created by Kirsty Harper
