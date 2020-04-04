@@ -1,7 +1,7 @@
 # Harpoon Illustrations
 
 <div style="text-align:center;">
-<img src="../wireframes/milestone1_screens.png">
+<img src="https://github.com/H4RP3RK/milestone_1_harperk/blob/83064aed06514109c29f727354b9a19ce20613f6/wireframes/milestone_1_screens.png">
 </div>
 
 ## Aim
@@ -30,19 +30,19 @@ Minor changes were made during the implementation stage for aesthetic and usabil
 ### Large Screen
 
 <div style="text-align:center;">
-<img src="../wireframes/milestone_1_large.png">
+<img src="https://github.com/H4RP3RK/milestone_1_harperk/blob/83064aed06514109c29f727354b9a19ce20613f6/wireframes/milestone_1_large.png">
 </div>
 
 ### Medium Screen
 
 <div style="text-align:center;">
-<img src="../wireframes/milestone_1_medium.png">
+<img src="https://github.com/H4RP3RK/milestone_1_harperk/blob/83064aed06514109c29f727354b9a19ce20613f6/wireframes/milestone_1_medium.png">
 </div>
 
 ### Small Screen
 
 <div style="text-align:center;">
-<img src="../wireframes/milestone_1_small.png">
+<img src="https://github.com/H4RP3RK/milestone_1_harperk/blob/83064aed06514109c29f727354b9a19ce20613f6/wireframes/milestone_1_small.png">
 </div>
 
 ---
@@ -135,7 +135,7 @@ To clone this project from GitHub:
 4. Change the current working directory to the location where you want the cloned directory to be made.
 5. Type ```git clone```, and then paste the URL you copied in Step 3.
 ```console
-git clone https://github.com/D0nni387/Luxury-Door-Solutions.git
+git clone https://github.com/H4RP3RK/milestone_1_harperk.git
 ```
 6. Press Enter. Your local clone will be created.
 
