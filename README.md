@@ -30,19 +30,19 @@ Minor changes were made during the implementation stage for aesthetic and usabil
 ### Large Screen
 
 <div style="text-align:center;">
-<img src="https://github.com/H4RP3RK/milestone_1_harperk/blob/45b497fd9177e1487561bd35b016a5330bc6cbf9/wireframes/milestone_1_large.png">
+<img src="../wireframes/milestone_1_large.png">
 </div>
 
 ### Medium Screen
 
 <div style="text-align:center;">
-<img src="https://github.com/H4RP3RK/milestone_1_harperk/blob/45b497fd9177e1487561bd35b016a5330bc6cbf9/wireframes/milestone_1_medium.png">
+<img src="../wireframes/milestone_1_medium.png">
 </div>
 
 ### Small Screen
 
 <div style="text-align:center;">
-<img src="https://github.com/H4RP3RK/milestone_1_harperk/blob/45b497fd9177e1487561bd35b016a5330bc6cbf9/wireframes/milestone_1_small.png">
+<img src="../wireframes/milestone_1_small.png">
 </div>
 
 ---
@@ -96,7 +96,7 @@ Users will be able to purchase the illustrator's merchandise on the site.
 * [Bootstrap](https://getbootstrap.com/)
 * [FontAwesome](https://fontawesome.com/)
 * [GoogleFonts](https://fonts.google.com/)
-* [Hover.css] (https://ianlunn.github.io/Hover/)
+* [Hover.css](https://ianlunn.github.io/Hover/)
 * [Gitpod](https://gitpod.io/workspaces/)
 * [Github](https://github.com/)
 
@@ -117,7 +117,7 @@ Users will be able to purchase the illustrator's merchandise on the site.
 
 ## Deployment
 
-To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/D0nni387/Luxury-Door-Solutions), the following steps were taken: 
+To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/H4RP3RK/milestone_1_harperk), the following steps were taken: 
 
 1. From the menu items near the top of the page, select **Settings**.
 2. Scroll down to the **GitHub Pages** section.
