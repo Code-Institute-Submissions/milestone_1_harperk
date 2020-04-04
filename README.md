@@ -43,7 +43,7 @@ In order to attract users and build the client base, the website will:
 ## Wireframes
 
 [Balsamiq](https://balsamiq.com/) was used for the initial design phase of the website.
-Minor changes were made during the implementation stage for aesthetic and usability reasons.
+Some changes were made during the implementation stage for aesthetic and usability reasons.
 
 ### Large Screen
 
@@ -69,14 +69,14 @@ Minor changes were made during the implementation stage for aesthetic and usabil
 
 ### Home
 
-Shows logo, gives some information about the illustrator and invites users to get in touch to request personalised illustrations.
+Welcomes the user with some information about the illustrator, which invites users to get in touch to request personalised illustrations.
+A GIF version of an illustration introduces the user to the illustrator's work and doubles as a link to the contact page.
 The footer is permanently displayed. It also invites the user to get in touch with ideas for their personalised illustration and 
 provides links to instagram, github and linkedin.
 
 ### Illustrations
 
-A carousel showcases the illustrations and captions give information about the inspiration for each. 
-The user is invited to get in touch with ideas for their personalised illustrations.
+A carousel showcases the illustrations and captions give information about the inspiration for each.
 The footer is permanently displayed. It invites users to get in touch to request their own illustrations
 and it provides links to instagram, github and linkedin.
 
@@ -87,7 +87,6 @@ A very similar format to the illustrations page, but the carousel shows collages
 ### Contact Me
 
 A contact form allows the user to get in touch with the illustrator to request their own personalised illustration.
-The footer provides links to instagram, github and linkedin.
 
 ---
 
@@ -113,25 +112,61 @@ Users will be able to purchase the illustrator's merchandise on the site.
 
 * HTML
 * CSS
-* [Bootstrap](https://getbootstrap.com/)
-* [FontAwesome](https://fontawesome.com/)
-* [GoogleFonts](https://fonts.google.com/)
-* [Hover.css](https://ianlunn.github.io/Hover/)
-* [Gitpod](https://gitpod.io/workspaces/)
-* [Github](https://github.com/)
+* [Bootstrap](https://getbootstrap.com/) - used for multiply features, including the container/grid structure of the web pages, the carousel, contact form and navigation bar.
+* [GoogleFonts](https://fonts.google.com/) - Amatic SC and Oswald were used for website fonts.
+* [jQuery](https://jquery.com/) - Javascript needed for the navigation bar.
+* [Hover.css](https://ianlunn.github.io/Hover/) - used to animate the GIF link on the home page.
+* [Gitpod](https://gitpod.io/workspaces/) - used to write the code.
+* [Github](https://github.com/) - used to host the repository.
 
 ### Illustrations and Collages
 
-* [Gimp](https://www.gimp.org/)
-* [Adobe Illustrator](https://www.adobe.com/uk/products/illustrator.html?sdid=88X75SKT&mv=search&s_kwcid=AL!3085!10!79371087385139!79371161872161&ef_id=XlhCtwAAAXYYDhTJ:20200316211929:s)
+* [Gimp](https://www.gimp.org/) - free, open source software used to create all collages and earlier illustrations.
+* [Adobe Illustrator](https://www.adobe.com/uk/products/illustrator.html?sdid=88X75SKT&mv=search&s_kwcid=AL!3085!10!79371087385139!79371161872161&ef_id=XlhCtwAAAXYYDhTJ:20200316211929:s) - used to create later illustrations.
 
 ---
 ## Testing
 
+### Tools
+
+The following tools were used to test the website code and layout throughout the development.
+* [Google Chrome Developer Tool](https://developers.google.com/web/tools/chrome-devtools/) - used throughout the project to test code and scalability.
+* [W3C Markup Validation](https://developers.google.com/web/tools/chrome-devtools/) - used to validate HTML code.
+* [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) - used to validate CSS code.
+* [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) - used to resolve layout issues with web pages.
+
+### User Testing
+
+The following scenarios were tested on all screen resolutions available through Google Developer Tools.
+
+* General
+    1. Hover over all header and footer links on all web pages to ensure that the appropriate colour changes occur.
+    2. Click on on all header and footer links to ensure that it directs to the appropriate page.
+    3. For social media links, click to ensure that external web pages open as a new link.
+    
+* Home Page
+    1. Hover over illustration to check that hover animation occurs.
+    2. Click on illustration to check that it directs to the contact page.
+
+* Illustrations/Collages
+    1. Use mouse and keyboard arrows to navigate through the carousel.
+    2. Check that picture dimensions work on all screen resolutions.
+
+* Contact
+    1. Try to submit an empty form.
+    2. Try to submit a form with some but not all fields empty.
+    3. Try to submit a form without an @ in the email field.
+    4. Try to submit a form with all fields filled in appropriately.
 
 ---
 ## Problem Solving
 
+During the development of the website, there were some bugs identified.
+
+* The footer did not reach to the bottom of the screen - this was resolved by changing the position to fixed.
+* The illustrations/collages did not fit with all screen resolutions - media enquiries were used to change from 100% width, auto height to 100% height, auto width.
+* Applying styles only to the drop down navigation bar - Bootstrap code was examined through Chrome Developer Tools to identify the appropriate ID/class.
+* 
 
 ---
 
