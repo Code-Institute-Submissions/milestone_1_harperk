@@ -1,8 +1,8 @@
 # Harpoon Illustrations
 
-<div style="text-align:center;">
-<img src="https://github.com/H4RP3RK/milestone_1_harperk/blob/83064aed06514109c29f727354b9a19ce20613f6/wireframes/milestone_1_screens.png">
-</div>
+<img src="https://github.com/H4RP3RK/milestone_1_harperk/blob/83064aed06514109c29f727354b9a19ce20613f6/wireframes/milestone_1_screens.png"
+     alt="Different Screen Resolutions"
+     style="text-align: center;" />
 
 ## Aim
 
@@ -29,21 +29,21 @@ Minor changes were made during the implementation stage for aesthetic and usabil
 
 ### Large Screen
 
-<div style="text-align:center;">
-<img src="https://github.com/H4RP3RK/milestone_1_harperk/blob/83064aed06514109c29f727354b9a19ce20613f6/wireframes/milestone_1_large.png">
-</div>
+<img src="https://github.com/H4RP3RK/milestone_1_harperk/blob/83064aed06514109c29f727354b9a19ce20613f6/wireframes/milestone_1_large.png"
+     alt="Large Screen Wireframe"
+     style="text-align: center;" />
 
 ### Medium Screen
 
-<div style="text-align:center;">
-<img src="https://github.com/H4RP3RK/milestone_1_harperk/blob/83064aed06514109c29f727354b9a19ce20613f6/wireframes/milestone_1_medium.png">
-</div>
+<img src="https://github.com/H4RP3RK/milestone_1_harperk/blob/83064aed06514109c29f727354b9a19ce20613f6/wireframes/milestone_1_medium.png"
+     alt="Medium Screen Wireframe"
+     style="text-align: center;" />
 
 ### Small Screen
 
-<div style="text-align:center;">
-<img src="https://github.com/H4RP3RK/milestone_1_harperk/blob/83064aed06514109c29f727354b9a19ce20613f6/wireframes/milestone_1_small.png">
-</div>
+<img src="https://github.com/H4RP3RK/milestone_1_harperk/blob/83064aed06514109c29f727354b9a19ce20613f6/wireframes/milestone_1_small.png"
+     alt="Small Screen Wireframe"
+     style="text-align: center;" />
 
 ---
 
