@@ -8,7 +8,11 @@ This website showcases the illustrations of Kirsty Harper and invites users to s
 own ideas for a personalised illustration for themselves, their friends or family.
 The purpose of the website is to promote the illustrator's work and generate customers.
 
-The client has set the following goals for the website:
+The client is an illustrator who would like a website to showcase illustrations she has created 
+for friends and family. The purpose of the website is to increase her client base and invite users
+to submit their own ideas for unique 
+
+has set the following goals for the website:
 
 
 ---
