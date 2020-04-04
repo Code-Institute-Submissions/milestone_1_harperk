@@ -1,14 +1,15 @@
 # Harpoon Illustrations
 
-<img src="https://github.com/H4RP3RK/milestone_1_harperk/blob/83064aed06514109c29f727354b9a19ce20613f6/wireframes/milestone_1_screens.png"
-     alt="Different Screen Resolutions"
-     style="text-align: center;" />
+![alt text](https://github.com/H4RP3RK/milestone_1_harperk/blob/83064aed06514109c29f727354b9a19ce20613f6/wireframes/milestone_1_screens.png "Different Screen Resolutions")
 
 ## Aim
 
 This website showcases the illustrations of Kirsty Harper and invites users to submit their 
 own ideas for a personalised illustration for themselves, their friends or family.
 The purpose of the website is to promote the illustrator's work and generate customers.
+
+The client has set the following goals for the website:
+
 
 ---
 
