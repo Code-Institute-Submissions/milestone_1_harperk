@@ -2,10 +2,6 @@
 
 /*-------------------------------------------------Logo */
 
-body {
-    background: #D1DEDC;
-}
-
 header {   
     height: 20vh;
     background: #CBB09A;
@@ -23,6 +19,7 @@ header {
     font-weight: 700;
     font-size: 45px;
     padding: 1px 7px 2px;
+    background-color: #CBB09A;
 }
 
 .logo h1:hover {
@@ -34,11 +31,6 @@ header {
 
 /*-------------------------------------------------Expanded Navbar */
 
-.navbar {
-    position: relative;
-    z-index: 12;
-}
-
 .navbar-nav {
     position: absolute;
     right: 50px;
@@ -47,6 +39,12 @@ header {
     background-color: #CBB09A;
     z-index: 2;
     border-radius: 5px;
+}
+
+#navbarNavDropdown.show .navbar-nav {
+    border: #FFCF4C solid 3px;
+    border-top: none;
+    z-index: 12;
 }
 
 .nav-link h2 {
@@ -88,10 +86,6 @@ header {
     background-color: #FFCF4C;
 }
 
-#navbarNavDropdown:after {
-    border: #FFCF4C solid 3px;
-}
-
 /*--https://stackoverflow.com/questions/13119906/turning-off-twitter-bootstrap-navbar-transition-animation--*/
 
 .navbar-collapse {
@@ -109,6 +103,7 @@ header {
 .home-box {
     height: 65vh;
     display: block;
+    background: #D1DEDC;
 }
 
 .home-box img {
@@ -153,6 +148,10 @@ header {
 }
 
 /*-------------------------------------------------Carousel */
+
+.main-box {
+    background: #D1DEDC;
+}
 
 .carousel-inner {
     height: 70vh;
@@ -241,7 +240,7 @@ footer {
 .form {
     display: block;
     text-align: center;
-    height: 65vh;
+    height: 70vh;
 }
 
 .form h3 {
