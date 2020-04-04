@@ -4,26 +4,39 @@
 
 ## Aim
 
-This website showcases the illustrations of Kirsty Harper and invites users to submit their 
-own ideas for a personalised illustration for themselves, their friends or family.
-The purpose of the website is to promote the illustrator's work and generate customers.
-
-The client is an illustrator who would like a website to showcase illustrations she has created 
+The client is an illustrator who requested a website to showcase illustrations she creates 
 for friends and family. The purpose of the website is to increase her client base and invite users
-to submit their own ideas for unique 
+to submit their own ideas for unique illustrations.
 
-has set the following goals for the website:
-
+The client has set the following criteria for the website:
+1. The design should be professional with an element of fun.
+2. The main focus should be the illustrations.
+3. The user should be able to contact the illustrator.
+4. There should be clear instructions as to how the user can contact the illustrator.
 
 ---
 
 ## UX
 
-The site must meet the following criteria:
+Harpoon Illustrations is a newly established company that currently has a very small client base 
+consisting mainly of the illustrator's friends and family. The website is aimed at the wider public,
+who are unlikely to be familiar with the illustrator's work. It is hoped that the users will
+be potential clients, who will commission the illustrator to create bespoke illustrations for them, their
+friends or family.
+
+In order to attract users and build the client base, the website will:
 1. Look aesthetically pleasing.
-2. Look simple and uncluttered.
-3. Clearly display the illustrator's work.
-4. Easily allow the user to contact the illustrator
+2. Draw the user in with humour.
+3. Look simple and uncluttered to focus the attention on the illustrations.
+4. Have clear instructions to easily allow the user to contact the illustrator.
+
+### User Stories
+
+"As a user of the Harpoon Illustrations site, I want the website to look stylish as this instills confidence about the quality of the illustrations."
+
+"As a user of the site, I want to see the illustrator's previous work to get ideas for potential work I can request."
+
+"As a user of the site, I want an easy way to get in touch with the illustrator directly so I can discuss potential ideas."
 
 ---
 
@@ -57,13 +70,15 @@ Minor changes were made during the implementation stage for aesthetic and usabil
 ### Home
 
 Shows logo, gives some information about the illustrator and invites users to get in touch to request personalised illustrations.
-The footer provides links to instagram, github and linkedin.
+The footer is permanently displayed. It also invites the user to get in touch with ideas for their personalised illustration and 
+provides links to instagram, github and linkedin.
 
 ### Illustrations
 
 A carousel showcases the illustrations and captions give information about the inspiration for each. 
 The user is invited to get in touch with ideas for their personalised illustrations.
-The footer provides links to instagram, github and linkedin.
+The footer is permanently displayed. It invites users to get in touch to request their own illustrations
+and it provides links to instagram, github and linkedin.
 
 ### Collages
 
