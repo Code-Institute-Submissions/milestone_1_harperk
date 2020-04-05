@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC:100,200,300,400,500,600,700|Oswald:100,200,300,400,500,600,700');
 
-/*-------------------------------------------------Logo */
+/*-------------------------------------------------Header */
 
 header {   
     height: 20vh;
@@ -8,16 +8,14 @@ header {
     border-bottom: #FFCF4C solid 3px;
 }
 
-.logo {
-    position: relative;
-    left: 1vw;
-}
+/*--------------------Logo */
 
 .logo h1 {
     color: #3B6654;
     font-family: "Amatic SC", sans-serif;
     font-weight: 700;
     font-size: 45px;
+    margin-top: 5px;
     padding: 1px 7px 2px;
     background-color: #CBB09A;
 }
@@ -29,16 +27,14 @@ header {
     padding: 1px 7px 2px
 }
 
-/*-------------------------------------------------Expanded Navbar */
+/*--------------------Expanded Navbar */
 
 .navbar-nav {
     position: absolute;
     right: 50px;
-    padding: 1vw;
     text-align: right;
     background-color: #CBB09A;
-    z-index: 2;
-    border-radius: 5px;
+    border-radius: 10%;
 }
 
 #navbarNavDropdown.show .navbar-nav {
@@ -47,7 +43,7 @@ header {
     z-index: 12;
 }
 
-.nav-link h2 {
+.nav-item h2 {
     font-family: "Amatic SC", sans-serif;
     font-weight: 500;
     font-size: 40px;
@@ -63,13 +59,14 @@ header {
     padding: 1px 7px 2px;
 }
 
-.nav-link.active {
+.active.nav-item h2 {
     background-color: #FFCF4C;
     color: #3B6654;
     border-radius: 10%;
+    padding: 1px 7px 2px;
 }
 
-/*-------------------------------------------------Menu Button */
+/*--------------------Menu Button */
 
 .navbar-toggler {
     position: absolute;
@@ -102,6 +99,7 @@ header {
     height: 65vh;
     display: block;
     background: #D1DEDC;
+    overflow: scroll;
 }
 
 .home-box img {
@@ -116,38 +114,23 @@ header {
 .words {
     font-family: "Oswald", sans-serif;
     font-weight: 300;
-    padding: 5px;
+    padding: 1vh 4vw;
+    font-size: 25px;
     text-align: center;
     color: #3B6654;
     margin: 10px;
     border-radius: 5px;
 }
 
-/*--------------------Button */
-
-.home-box a {
-    font-family: "Amatic SC", sans-serif;
-    font-size: 30px;
-    text-align: center;
-    color: #FFCF4C;
-    background-color: #3B6654;
-    margin: 2vh auto;
-}
-
-.home-box a:hover {
-    color: #3B6654;
-    background-color: #FFCF4C;
-}
-
 /*-------------------------------------------------Carousel */
 
-.main-box {
+body {
     background: #D1DEDC;
 }
 
 .carousel-inner {
     height: 70vh;
-    width: auto;
+    overflow: scroll;
 }
 
 .carousel-item {
