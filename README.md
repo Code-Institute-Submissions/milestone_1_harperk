@@ -206,4 +206,5 @@ All images and collages were created by Kirsty Harper
 ### Acknowledgements
 
 Thanks to my mentor, Jonathan Munz, for his invaluable support, advice and tips.
-d
+Thanks to all the Code Institute tutors for teaching me the skills I need to build the website.
+Thanks to my partner, Dominic, for giving me cups of tea and encouragement whilst I shouted at the screen.
