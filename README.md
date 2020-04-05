@@ -1,6 +1,6 @@
 # Harpoon Illustrations
 
-![alt text](https://github.com/H4RP3RK/milestone_1_harperk/blob/83064aed06514109c29f727354b9a19ce20613f6/wireframes/milestone_1_screens.png "Different Screen Resolutions")
+![Different Screen Resolutions](https://github.com/H4RP3RK/milestone_1_harperk/blob/83064aed06514109c29f727354b9a19ce20613f6/wireframes/milestone_1_screens.png)
 
 ## Aim
 
