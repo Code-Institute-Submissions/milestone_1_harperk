@@ -1,11 +1,5 @@
 # Harpoon Illustrations
 
-## Screen Resolutions
-
-<img src="https://github.com/H4RP3RK/milestone_1_harperk/blob/77fb19f72377848f80263797070cbb937ec5791c/wireframes/milestone_1_screens.pdf"
-     alt="Different Screen Resolutions"
-     style="text-align: center;" />
-
 ## Aim
 
 The client is an illustrator who requested a website to showcase illustrations she creates 
@@ -165,6 +159,7 @@ During the development of the website, there were some bugs identified.
 * Removing the transition animation on the Bootstrap navigation bar - this was resolved with the help of a Stackoverflow workaround. Link details in the CSS file.
 * The illustrations/collages do not neatly fit with all screen resolutions - media enquiries were used to change from 100% width, auto height to 100% height, auto width to mitigate the issue.
 * Logo and navigation bar do not remain within header bar when screen is stretched - this problem was not solved but the issue was mitigated by adding a background colour to the text, so it was more easily visible when it covered the main body of the page.
+* Screen Resolution image would not show on readme - this is an unresolved issue. The image has been uploaded in several different formats and different style of markdown used but the image will not appear. The image is saved in the wireframes folder.
 
 ---
 
