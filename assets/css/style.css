@@ -227,7 +227,7 @@ footer {
 .form-control {
     font-family: "Oswald", sans-serif;
     font-weight: 300;
-    width: 70%;
+    max-width: 70%;
     margin: 5px;
     text-align: center;
     display: inline-block;
