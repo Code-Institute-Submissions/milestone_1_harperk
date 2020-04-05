@@ -92,17 +92,9 @@ A contact form allows the user to get in touch with the illustrator to request t
 
 ## Further Development
 
-### Form linked to Email
-
-The contact form allows an email to be sent to the illustrator's email account.
-
-### Photo Uploading
-
-The contact form allows the user to attach photo inspiration to their email suggestions.
-
-### Online Shop
-
-Users will be able to purchase the illustrator's merchandise on the site.
+* Form linked to Email - The contact form allows an email to be sent to the illustrator's email account.
+* Photo Uploading - The contact form allows the user to attach photo inspiration to their email suggestions.
+* Online Shop - Users will be able to purchase the illustrator's merchandise on the site.
 
 ---
 
@@ -134,6 +126,7 @@ The following tools were used to test the website code and layout throughout the
 * [W3C Markup Validation](https://developers.google.com/web/tools/chrome-devtools/) - used to validate HTML code.
 * [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) - used to validate CSS code.
 * [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) - used to resolve layout issues with web pages.
+* [Contrast Ratio](https://contrast-ratio.com/) - used to ensure that colours meet readability guidelines.
 
 ### User Testing
 
@@ -164,9 +157,10 @@ The following scenarios were tested on all screen resolutions available through 
 During the development of the website, there were some bugs identified.
 
 * The footer did not reach to the bottom of the screen - this was resolved by changing the position to fixed.
-* The illustrations/collages did not fit with all screen resolutions - media enquiries were used to change from 100% width, auto height to 100% height, auto width.
 * Applying styles only to the drop down navigation bar - Bootstrap code was examined through Chrome Developer Tools to identify the appropriate ID/class.
-* 
+* Removing the transition animation on the Bootstrap navigation bar - this was resolved with the help of a Stackoverflow workaround. Link details in the CSS file.
+* The illustrations/collages do not neatly fit with all screen resolutions - media enquiries were used to change from 100% width, auto height to 100% height, auto width to mitigate the issue.
+* Logo and navigation bar do not remain within header bar when screen is stretched - this problem was not solved but the issue was mitigated by adding a background colour to the text, so it was more easily visible when it covered the main body of the page.
 
 ---
 
@@ -200,6 +194,16 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 
 ## Credits
 
+### Content
+
+Thanks to [Stack Overflow](https://stackoverflow.com/questions/13119906/turning-off-twitter-bootstrap-navbar-transition-animation) for helping 
+me solve issues with the transition animation on my Bootstrap navigation bar.
+
 ### Illustrations and Collages
 
 All images and collages were created by Kirsty Harper
+
+### Acknowledgements
+
+Thanks to my mentor, Jonathan Munz, for his invaluable support, advice and tips.
+d
