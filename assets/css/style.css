@@ -123,12 +123,6 @@ header {
     border-radius: 5px;
 }
 
-.words a {
-    color: #3B6654;
-    font-weight: 500;
-}
-
-
 /*--------------------Button */
 
 .home-box a {
@@ -278,9 +272,13 @@ footer {
 /*-------------------------------------------------Media Enquiries */
 
 @media(min-width: 1025px) {
-    .home-box img,
-    .carousel-item img {
+    .home-box img {
         height: 70%;
+        width: auto;
+    }
+
+    .carousel-item img {
+        height: 100%;
         width: auto;
     }
     
