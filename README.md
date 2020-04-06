@@ -161,6 +161,7 @@ During the development of the website, there were some bugs identified.
 * The illustrations/collages do not neatly fit with all screen resolutions - media enquiries were used to change from 100% width, auto height to 100% height, auto width to mitigate the issue.
 * Logo and navigation bar do not remain within header bar when screen is stretched - this problem was not solved but the issue was mitigated by adding a background colour to the text, so it was more easily visible when it covered the main body of the page.
 * Screen Resolution image would not show on readme - this is an unresolved issue. The image has been uploaded in several different formats and different style of markdown used but the image will not appear. The image is saved in the wireframes folder.
+* The Linkedin link does not lead to the illustrator's Linkedin page - this is due to the Linkedin profile being private.
 
 ---
 
